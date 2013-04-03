@@ -1,0 +1,22 @@
+//
+// Prefix header for all source files of the 'NeuralNetworks' target in the 'NeuralNetworks' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #import <Accelerate/Accelerate.h>
+    #import "NSBezierPath+BezierPathQuartzUtilities.h"
+    #import "NSImage+NeuralNetworkUtilities.h"
+    #import "NSImageRep+NeuralNetworkUtilities.h"
+#endif
+
+#define M_KN_GLYPH_CLUSTERING 44
+#define M_KN_SIZE_CLUSTERING 8
+#define M_FF_SCANNER 100
+#define M_GLYPH_FRACTION 0.1
+#define M_MINIMUM_GLYPH_SIZE 0.05
+#define M_SPLITTING_LOWER_THRESHOLD 0.01
+#define M_SPLITTING_UPPER_THRESHOLD 0.08
+#define M_NETWORK_INPUT_X 20
+#define M_NETWORK_INPUT_Y 20
+#define M_SIZE_CLUSTER_TOLERANCE 0.15

@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		790300F0155E65EA00A9DF9B /* NNKohonenNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 790300EF155E65EA00A9DF9B /* NNKohonenNetwork.m */; };
+		790300F4155E80AC00A9DF9B /* NNMyKohonenNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 790300F3155E80AC00A9DF9B /* NNMyKohonenNetwork.m */; };
+		79046FDD1557E6C8009BA944 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79046FDC1557E6C8009BA944 /* Cocoa.framework */; };
+		79046FE71557E6C8009BA944 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79046FE51557E6C8009BA944 /* InfoPlist.strings */; };
+		79046FE91557E6C8009BA944 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79046FE81557E6C8009BA944 /* main.m */; };
+		79046FF31557E6C9009BA944 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79046FF11557E6C9009BA944 /* MainMenu.xib */; };
+		79046FFF1557E6F1009BA944 /* NNMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 79046FFE1557E6F1009BA944 /* NNMatrix.m */; };
+		790470021557E896009BA944 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 790470001557E88D009BA944 /* Accelerate.framework */; };
+		79193D60156024D40005B0AD /* NNGlyphsClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 79193D5F156024D40005B0AD /* NNGlyphsClass.m */; };
+		791AD9761573D17C00E6AADD /* NNDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 791AD9741573D17C00E6AADD /* NNDocument.m */; };
+		791AFC7C1570393F004D3D9B /* NNTrainingSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 791AFC7A1570393F004D3D9B /* NNTrainingSheetController.m */; };
+		791AFC7D1570393F004D3D9B /* NNTrainingSheetController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 791AFC7B1570393F004D3D9B /* NNTrainingSheetController.xib */; };
+		7923C867157027FF006BCF21 /* NNErrorGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7923C866157027FF006BCF21 /* NNErrorGraphView.m */; };
+		7923C86E15702FF2006BCF21 /* Train.png in Resources */ = {isa = PBXBuildFile; fileRef = 7923C86D15702FF2006BCF21 /* Train.png */; };
+		7924B270155820FE003AA40B /* NNImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7924B26F155820FE003AA40B /* NNImageView.m */; };
+		79288E2315696679008B429B /* NNGlyphCollectionViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 79288E2215696679008B429B /* NNGlyphCollectionViewItem.m */; };
+		79288E2B156A0A8F008B429B /* NNCollectionViewWithDeleteDrag.m in Sources */ = {isa = PBXBuildFile; fileRef = 79288E2A156A0A8F008B429B /* NNCollectionViewWithDeleteDrag.m */; };
+		79288E2F156A8773008B429B /* NewGlyphs.png in Resources */ = {isa = PBXBuildFile; fileRef = 79288E2E156A8772008B429B /* NewGlyphs.png */; };
+		79288E31156A8A83008B429B /* Scan.png in Resources */ = {isa = PBXBuildFile; fileRef = 79288E30156A8A83008B429B /* Scan.png */; };
+		79331B39155D1862009AD51E /* NNNewGlyphsSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79331B37155D1862009AD51E /* NNNewGlyphsSheetController.m */; };
+		79331B3A155D1862009AD51E /* NNNewGlyphsSheetController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79331B38155D1862009AD51E /* NNNewGlyphsSheetController.xib */; };
+		79331B3C155D6E6B009AD51E /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79331B3B155D6E6B009AD51E /* Quartz.framework */; };
+		793EC40D1569351600B864C8 /* NNGlyphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 793EC40C1569351600B864C8 /* NNGlyphView.m */; };
+		797A0AD71568702800CB48EF /* NNCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 797A0AD61568702800CB48EF /* NNCollectionView.m */; };
+		797FAB2B156CDD1400F5BAE7 /* NSImageRep+NeuralNetworkUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 797FAB2A156CDD1400F5BAE7 /* NSImageRep+NeuralNetworkUtilities.m */; };
+		797FAB2F156CE1E700F5BAE7 /* NSImage+NeuralNetworkUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 797FAB2E156CE1E700F5BAE7 /* NSImage+NeuralNetworkUtilities.m */; };
+		79823829156C36EA0016C0AC /* NNFeedForwardNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 79823828156C36EA0016C0AC /* NNFeedForwardNetwork.m */; };
+		79DAF32415629FD000897C80 /* NNCollectionItemBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DAF32315629FD000897C80 /* NNCollectionItemBox.m */; };
+		79E831831563BDA900A843DF /* NSBezierPath+BezierPathQuartzUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E831821563BDA900A843DF /* NSBezierPath+BezierPathQuartzUtilities.m */; };
+		79E831881563FBC500A843DF /* NNGlyphsClassView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E831861563FBC500A843DF /* NNGlyphsClassView.m */; };
+		79E831891563FBC500A843DF /* NNGlyphsClassView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79E831871563FBC500A843DF /* NNGlyphsClassView.xib */; };
+		79E831921564FA1400A843DF /* NNHorizontalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E831911564FA1400A843DF /* NNHorizontalScrollView.m */; };
+		79EDC03E155AE59D00C42ABE /* NNGlyph.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EDC03D155AE59D00C42ABE /* NNGlyph.m */; };
+		79F99F33156EF02D00160C1D /* NNNetworkWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F99F31156EF02D00160C1D /* NNNetworkWindowController.m */; };
+		79F99F34156EF02D00160C1D /* NNNetworkWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79F99F32156EF02D00160C1D /* NNNetworkWindowController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		790300EE155E65EA00A9DF9B /* NNKohonenNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNKohonenNetwork.h; sourceTree = "<group>"; };
+		790300EF155E65EA00A9DF9B /* NNKohonenNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNKohonenNetwork.m; sourceTree = "<group>"; };
+		790300F2155E80AC00A9DF9B /* NNMyKohonenNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNMyKohonenNetwork.h; sourceTree = "<group>"; };
+		790300F3155E80AC00A9DF9B /* NNMyKohonenNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNMyKohonenNetwork.m; sourceTree = "<group>"; };
+		79046FD81557E6C8009BA944 /* NeuralNetworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuralNetworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79046FDC1557E6C8009BA944 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		79046FDF1557E6C8009BA944 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		79046FE01557E6C8009BA944 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		79046FE11557E6C8009BA944 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79046FE41557E6C8009BA944 /* NeuralNetworks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NeuralNetworks-Info.plist"; sourceTree = "<group>"; };
+		79046FE61557E6C8009BA944 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79046FE81557E6C8009BA944 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79046FEA1557E6C8009BA944 /* NeuralNetworks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NeuralNetworks-Prefix.pch"; sourceTree = "<group>"; };
+		79046FF21557E6C9009BA944 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		79046FFD1557E6F1009BA944 /* NNMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNMatrix.h; sourceTree = "<group>"; };
+		79046FFE1557E6F1009BA944 /* NNMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNMatrix.m; sourceTree = "<group>"; };
+		790470001557E88D009BA944 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		79193D5E156024D40005B0AD /* NNGlyphsClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNGlyphsClass.h; sourceTree = "<group>"; };
+		79193D5F156024D40005B0AD /* NNGlyphsClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNGlyphsClass.m; sourceTree = "<group>"; };
+		791AD9731573D17C00E6AADD /* NNDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNDocument.h; sourceTree = "<group>"; };
+		791AD9741573D17C00E6AADD /* NNDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNDocument.m; sourceTree = "<group>"; };
+		791AFC791570393F004D3D9B /* NNTrainingSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNTrainingSheetController.h; sourceTree = "<group>"; };
+		791AFC7A1570393F004D3D9B /* NNTrainingSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNTrainingSheetController.m; sourceTree = "<group>"; };
+		791AFC7B1570393F004D3D9B /* NNTrainingSheetController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NNTrainingSheetController.xib; sourceTree = "<group>"; };
+		7923C865157027FF006BCF21 /* NNErrorGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNErrorGraphView.h; sourceTree = "<group>"; };
+		7923C866157027FF006BCF21 /* NNErrorGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNErrorGraphView.m; sourceTree = "<group>"; };
+		7923C86D15702FF2006BCF21 /* Train.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Train.png; sourceTree = "<group>"; };
+		7924B26E155820FE003AA40B /* NNImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNImageView.h; sourceTree = "<group>"; };
+		7924B26F155820FE003AA40B /* NNImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNImageView.m; sourceTree = "<group>"; };
+		79288E2115696679008B429B /* NNGlyphCollectionViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNGlyphCollectionViewItem.h; sourceTree = "<group>"; };
+		79288E2215696679008B429B /* NNGlyphCollectionViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNGlyphCollectionViewItem.m; sourceTree = "<group>"; };
+		79288E29156A0A8F008B429B /* NNCollectionViewWithDeleteDrag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNCollectionViewWithDeleteDrag.h; sourceTree = "<group>"; };
+		79288E2A156A0A8F008B429B /* NNCollectionViewWithDeleteDrag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNCollectionViewWithDeleteDrag.m; sourceTree = "<group>"; };
+		79288E2E156A8772008B429B /* NewGlyphs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewGlyphs.png; sourceTree = "<group>"; };
+		79288E30156A8A83008B429B /* Scan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scan.png; sourceTree = "<group>"; };
+		79331B36155D1862009AD51E /* NNNewGlyphsSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNewGlyphsSheetController.h; sourceTree = "<group>"; };
+		79331B37155D1862009AD51E /* NNNewGlyphsSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNNewGlyphsSheetController.m; sourceTree = "<group>"; };
+		79331B38155D1862009AD51E /* NNNewGlyphsSheetController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NNNewGlyphsSheetController.xib; sourceTree = "<group>"; };
+		79331B3B155D6E6B009AD51E /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		793EC40B1569351600B864C8 /* NNGlyphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNGlyphView.h; sourceTree = "<group>"; };
+		793EC40C1569351600B864C8 /* NNGlyphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNGlyphView.m; sourceTree = "<group>"; };
+		797A0AD51568702800CB48EF /* NNCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNCollectionView.h; sourceTree = "<group>"; };
+		797A0AD61568702800CB48EF /* NNCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNCollectionView.m; sourceTree = "<group>"; };
+		797FAB29156CDD1400F5BAE7 /* NSImageRep+NeuralNetworkUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImageRep+NeuralNetworkUtilities.h"; sourceTree = "<group>"; };
+		797FAB2A156CDD1400F5BAE7 /* NSImageRep+NeuralNetworkUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImageRep+NeuralNetworkUtilities.m"; sourceTree = "<group>"; };
+		797FAB2D156CE1E700F5BAE7 /* NSImage+NeuralNetworkUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+NeuralNetworkUtilities.h"; sourceTree = "<group>"; };
+		797FAB2E156CE1E700F5BAE7 /* NSImage+NeuralNetworkUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+NeuralNetworkUtilities.m"; sourceTree = "<group>"; };
+		79823827156C36EA0016C0AC /* NNFeedForwardNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNFeedForwardNetwork.h; sourceTree = "<group>"; };
+		79823828156C36EA0016C0AC /* NNFeedForwardNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNFeedForwardNetwork.m; sourceTree = "<group>"; };
+		79DAF32215629FD000897C80 /* NNCollectionItemBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNCollectionItemBox.h; sourceTree = "<group>"; };
+		79DAF32315629FD000897C80 /* NNCollectionItemBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNCollectionItemBox.m; sourceTree = "<group>"; };
+		79E831811563BDA900A843DF /* NSBezierPath+BezierPathQuartzUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+BezierPathQuartzUtilities.h"; sourceTree = "<group>"; };
+		79E831821563BDA900A843DF /* NSBezierPath+BezierPathQuartzUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+BezierPathQuartzUtilities.m"; sourceTree = "<group>"; };
+		79E831851563FBC500A843DF /* NNGlyphsClassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNGlyphsClassView.h; sourceTree = "<group>"; };
+		79E831861563FBC500A843DF /* NNGlyphsClassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNGlyphsClassView.m; sourceTree = "<group>"; };
+		79E831871563FBC500A843DF /* NNGlyphsClassView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NNGlyphsClassView.xib; sourceTree = "<group>"; };
+		79E831901564FA1400A843DF /* NNHorizontalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNHorizontalScrollView.h; sourceTree = "<group>"; };
+		79E831911564FA1400A843DF /* NNHorizontalScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNHorizontalScrollView.m; sourceTree = "<group>"; };
+		79EDC03C155AE59D00C42ABE /* NNGlyph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNGlyph.h; sourceTree = "<group>"; };
+		79EDC03D155AE59D00C42ABE /* NNGlyph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNGlyph.m; sourceTree = "<group>"; };
+		79F99F30156EF02D00160C1D /* NNNetworkWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNetworkWindowController.h; sourceTree = "<group>"; };
+		79F99F31156EF02D00160C1D /* NNNetworkWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNNetworkWindowController.m; sourceTree = "<group>"; };
+		79F99F32156EF02D00160C1D /* NNNetworkWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NNNetworkWindowController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79046FD51557E6C8009BA944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79046FDD1557E6C8009BA944 /* Cocoa.framework in Frameworks */,
+				79331B3C155D6E6B009AD51E /* Quartz.framework in Frameworks */,
+				790470021557E896009BA944 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79046FCD1557E6C8009BA944 = {
+			isa = PBXGroup;
+			children = (
+				7923C86D15702FF2006BCF21 /* Train.png */,
+				79288E30156A8A83008B429B /* Scan.png */,
+				79288E2E156A8772008B429B /* NewGlyphs.png */,
+				79046FE21557E6C8009BA944 /* NeuralNetworks */,
+				79046FDB1557E6C8009BA944 /* Frameworks */,
+				79046FD91557E6C8009BA944 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79046FD91557E6C8009BA944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79046FD81557E6C8009BA944 /* NeuralNetworks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79046FDB1557E6C8009BA944 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79046FDC1557E6C8009BA944 /* Cocoa.framework */,
+				79046FDE1557E6C8009BA944 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79046FDE1557E6C8009BA944 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79331B3B155D6E6B009AD51E /* Quartz.framework */,
+				790470001557E88D009BA944 /* Accelerate.framework */,
+				79046FDF1557E6C8009BA944 /* AppKit.framework */,
+				79046FE01557E6C8009BA944 /* CoreData.framework */,
+				79046FE11557E6C8009BA944 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		79046FE21557E6C8009BA944 /* NeuralNetworks */ = {
+			isa = PBXGroup;
+			children = (
+				79EDC03C155AE59D00C42ABE /* NNGlyph.h */,
+				79EDC03D155AE59D00C42ABE /* NNGlyph.m */,
+				79193D5E156024D40005B0AD /* NNGlyphsClass.h */,
+				79193D5F156024D40005B0AD /* NNGlyphsClass.m */,
+				79288E2D156A21D9008B429B /* UI */,
+				79288E2C156A215F008B429B /* Computation */,
+				79331B36155D1862009AD51E /* NNNewGlyphsSheetController.h */,
+				79331B37155D1862009AD51E /* NNNewGlyphsSheetController.m */,
+				79331B38155D1862009AD51E /* NNNewGlyphsSheetController.xib */,
+				79E831851563FBC500A843DF /* NNGlyphsClassView.h */,
+				79E831861563FBC500A843DF /* NNGlyphsClassView.m */,
+				79E831871563FBC500A843DF /* NNGlyphsClassView.xib */,
+				79F99F30156EF02D00160C1D /* NNNetworkWindowController.h */,
+				79F99F31156EF02D00160C1D /* NNNetworkWindowController.m */,
+				79F99F32156EF02D00160C1D /* NNNetworkWindowController.xib */,
+				791AFC791570393F004D3D9B /* NNTrainingSheetController.h */,
+				791AFC7A1570393F004D3D9B /* NNTrainingSheetController.m */,
+				791AFC7B1570393F004D3D9B /* NNTrainingSheetController.xib */,
+				79046FE31557E6C8009BA944 /* Supporting Files */,
+				79046FF11557E6C9009BA944 /* MainMenu.xib */,
+				791AD9731573D17C00E6AADD /* NNDocument.h */,
+				791AD9741573D17C00E6AADD /* NNDocument.m */,
+			);
+			path = NeuralNetworks;
+			sourceTree = "<group>";
+		};
+		79046FE31557E6C8009BA944 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79E831811563BDA900A843DF /* NSBezierPath+BezierPathQuartzUtilities.h */,
+				79E831821563BDA900A843DF /* NSBezierPath+BezierPathQuartzUtilities.m */,
+				79046FE41557E6C8009BA944 /* NeuralNetworks-Info.plist */,
+				79046FE51557E6C8009BA944 /* InfoPlist.strings */,
+				79046FE81557E6C8009BA944 /* main.m */,
+				79046FEA1557E6C8009BA944 /* NeuralNetworks-Prefix.pch */,
+				797FAB29156CDD1400F5BAE7 /* NSImageRep+NeuralNetworkUtilities.h */,
+				797FAB2A156CDD1400F5BAE7 /* NSImageRep+NeuralNetworkUtilities.m */,
+				797FAB2D156CE1E700F5BAE7 /* NSImage+NeuralNetworkUtilities.h */,
+				797FAB2E156CE1E700F5BAE7 /* NSImage+NeuralNetworkUtilities.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79288E2C156A215F008B429B /* Computation */ = {
+			isa = PBXGroup;
+			children = (
+				790300F2155E80AC00A9DF9B /* NNMyKohonenNetwork.h */,
+				790300F3155E80AC00A9DF9B /* NNMyKohonenNetwork.m */,
+				79046FFD1557E6F1009BA944 /* NNMatrix.h */,
+				79046FFE1557E6F1009BA944 /* NNMatrix.m */,
+				79823827156C36EA0016C0AC /* NNFeedForwardNetwork.h */,
+				79823828156C36EA0016C0AC /* NNFeedForwardNetwork.m */,
+				790300EE155E65EA00A9DF9B /* NNKohonenNetwork.h */,
+				790300EF155E65EA00A9DF9B /* NNKohonenNetwork.m */,
+			);
+			name = Computation;
+			sourceTree = "<group>";
+		};
+		79288E2D156A21D9008B429B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				79DAF32215629FD000897C80 /* NNCollectionItemBox.h */,
+				79DAF32315629FD000897C80 /* NNCollectionItemBox.m */,
+				793EC40B1569351600B864C8 /* NNGlyphView.h */,
+				793EC40C1569351600B864C8 /* NNGlyphView.m */,
+				79288E2115696679008B429B /* NNGlyphCollectionViewItem.h */,
+				79288E2215696679008B429B /* NNGlyphCollectionViewItem.m */,
+				7924B26E155820FE003AA40B /* NNImageView.h */,
+				7924B26F155820FE003AA40B /* NNImageView.m */,
+				79E831901564FA1400A843DF /* NNHorizontalScrollView.h */,
+				79E831911564FA1400A843DF /* NNHorizontalScrollView.m */,
+				79288E29156A0A8F008B429B /* NNCollectionViewWithDeleteDrag.h */,
+				79288E2A156A0A8F008B429B /* NNCollectionViewWithDeleteDrag.m */,
+				797A0AD51568702800CB48EF /* NNCollectionView.h */,
+				797A0AD61568702800CB48EF /* NNCollectionView.m */,
+				7923C865157027FF006BCF21 /* NNErrorGraphView.h */,
+				7923C866157027FF006BCF21 /* NNErrorGraphView.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79046FD71557E6C8009BA944 /* NeuralNetworks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79046FF61557E6C9009BA944 /* Build configuration list for PBXNativeTarget "NeuralNetworks" */;
+			buildPhases = (
+				79046FD41557E6C8009BA944 /* Sources */,
+				79046FD51557E6C8009BA944 /* Frameworks */,
+				79046FD61557E6C8009BA944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeuralNetworks;
+			productName = NeuralNetworks;
+			productReference = 79046FD81557E6C8009BA944 /* NeuralNetworks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79046FCF1557E6C8009BA944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NN;
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 79046FD21557E6C8009BA944 /* Build configuration list for PBXProject "NeuralNetworks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79046FCD1557E6C8009BA944;
+			productRefGroup = 79046FD91557E6C8009BA944 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79046FD71557E6C8009BA944 /* NeuralNetworks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79046FD61557E6C8009BA944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79046FE71557E6C8009BA944 /* InfoPlist.strings in Resources */,
+				79046FF31557E6C9009BA944 /* MainMenu.xib in Resources */,
+				79331B3A155D1862009AD51E /* NNNewGlyphsSheetController.xib in Resources */,
+				79E831891563FBC500A843DF /* NNGlyphsClassView.xib in Resources */,
+				79288E2F156A8773008B429B /* NewGlyphs.png in Resources */,
+				79288E31156A8A83008B429B /* Scan.png in Resources */,
+				79F99F34156EF02D00160C1D /* NNNetworkWindowController.xib in Resources */,
+				7923C86E15702FF2006BCF21 /* Train.png in Resources */,
+				791AFC7D1570393F004D3D9B /* NNTrainingSheetController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79046FD41557E6C8009BA944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79046FE91557E6C8009BA944 /* main.m in Sources */,
+				79046FFF1557E6F1009BA944 /* NNMatrix.m in Sources */,
+				7924B270155820FE003AA40B /* NNImageView.m in Sources */,
+				79EDC03E155AE59D00C42ABE /* NNGlyph.m in Sources */,
+				79331B39155D1862009AD51E /* NNNewGlyphsSheetController.m in Sources */,
+				790300F0155E65EA00A9DF9B /* NNKohonenNetwork.m in Sources */,
+				790300F4155E80AC00A9DF9B /* NNMyKohonenNetwork.m in Sources */,
+				79193D60156024D40005B0AD /* NNGlyphsClass.m in Sources */,
+				79DAF32415629FD000897C80 /* NNCollectionItemBox.m in Sources */,
+				79E831831563BDA900A843DF /* NSBezierPath+BezierPathQuartzUtilities.m in Sources */,
+				79E831881563FBC500A843DF /* NNGlyphsClassView.m in Sources */,
+				79E831921564FA1400A843DF /* NNHorizontalScrollView.m in Sources */,
+				797A0AD71568702800CB48EF /* NNCollectionView.m in Sources */,
+				793EC40D1569351600B864C8 /* NNGlyphView.m in Sources */,
+				79288E2315696679008B429B /* NNGlyphCollectionViewItem.m in Sources */,
+				79288E2B156A0A8F008B429B /* NNCollectionViewWithDeleteDrag.m in Sources */,
+				79823829156C36EA0016C0AC /* NNFeedForwardNetwork.m in Sources */,
+				797FAB2B156CDD1400F5BAE7 /* NSImageRep+NeuralNetworkUtilities.m in Sources */,
+				797FAB2F156CE1E700F5BAE7 /* NSImage+NeuralNetworkUtilities.m in Sources */,
+				79F99F33156EF02D00160C1D /* NNNetworkWindowController.m in Sources */,
+				7923C867157027FF006BCF21 /* NNErrorGraphView.m in Sources */,
+				791AFC7C1570393F004D3D9B /* NNTrainingSheetController.m in Sources */,
+				791AD9761573D17C00E6AADD /* NNDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79046FE51557E6C8009BA944 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79046FE61557E6C8009BA944 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79046FF11557E6C9009BA944 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79046FF21557E6C9009BA944 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79046FF41557E6C9009BA944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		79046FF51557E6C9009BA944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		79046FF71557E6C9009BA944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NeuralNetworks/NeuralNetworks-Prefix.pch";
+				INFOPLIST_FILE = "NeuralNetworks/NeuralNetworks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		79046FF81557E6C9009BA944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NeuralNetworks/NeuralNetworks-Prefix.pch";
+				INFOPLIST_FILE = "NeuralNetworks/NeuralNetworks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79046FD21557E6C8009BA944 /* Build configuration list for PBXProject "NeuralNetworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79046FF41557E6C9009BA944 /* Debug */,
+				79046FF51557E6C9009BA944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79046FF61557E6C9009BA944 /* Build configuration list for PBXNativeTarget "NeuralNetworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79046FF71557E6C9009BA944 /* Debug */,
+				79046FF81557E6C9009BA944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79046FCF1557E6C8009BA944 /* Project object */;
+}
